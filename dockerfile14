@@ -1,0 +1,7 @@
+# from base image ubuntu
+FROM ubuntu:18.04
+
+# command executable and version
+CMD ["echo", "hello world"]
+ENTRYPOINT ["ubuntu"]
+
